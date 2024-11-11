@@ -52,9 +52,9 @@ public class MyQueue{
         for (int j = 0; j < index; j++) {
             queue.offer(queue.remove());
         }
-        double maxValue = queue.remove();
+        //double maxValue = queue.remove();
 
-        queue.offer(maxValue);
+        //queue.offer(maxValue);
     }
 
     /**
